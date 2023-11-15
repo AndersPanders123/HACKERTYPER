@@ -6,6 +6,7 @@ word = ""
 def any_key_pressed(keyboard_event):
     global word  # Use the global keyword to access the global variable
     word += "Get hacc nuub\n"
+    result_label.config(text=word)
 
 # Create the Tkinter window
 window = tk.Tk()
@@ -22,5 +23,4 @@ keyboard.hook(any_key_pressed)
 
 # Start the Tkinter event loop
 window.mainloop()
-
 
