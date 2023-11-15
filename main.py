@@ -7,6 +7,7 @@ def any_key_pressed(keyboard_event):
     global word
     word += "Get hacc nuub\n"
     result_label.config(text=word)
+    result_label.config(text=word)
 
 window = tk.Tk()
 window.title("HackerTyper")
